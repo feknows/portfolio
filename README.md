@@ -1,2 +1,2 @@
 # portfolio
-personal portfolio
+Simples, HTML + CSS SASS
