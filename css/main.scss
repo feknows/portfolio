@@ -1,0 +1,115 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $text-color;
+  font-family: "Merriweather",serif;
+  font-size: 1.9rem;
+  margin: 0 150px 0 150px;
+  padding: 0;
+  background: $branco;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+    color: $text-color;
+    &:hover{
+        font-size: 2.55rem;
+        color: $cor-destaque;  
+    }
+}
+
+p{
+    font-size: 2.6rem;
+}
+
+h1{
+    padding-top: 30px;
+    color: darken($text-color,15%);
+}
+
+strong{
+    font-weight: bold;
+}
+header{
+    padding: 120px;
+    img{
+        border-radius: 100%;
+        /* centro */
+        width:200px;
+        height:200px;
+        position:absolute;
+        left:50%;
+        margin-left:-100px;
+        margin-top: -92px;
+        /* centro */
+    }
+}
+
+.soc-aloc{
+        padding: 25px;
+    .social{
+        font-size: 2.45rem;
+        text-align: center;
+        margin: 5px;
+        span{
+            &:hover{
+                font-size: 2.55rem;
+                color: $cor-destaque;
+            }
+        }
+    }
+}
+
+.container{
+    margin: 0 20% 0 20%;
+}
+
+footer{
+    margin: 0 20% 0 20%;
+    border-top: 1px solid lighten($text-color, 50%);
+    p {
+        font-size: 1.45rem;
+        color: lighten($text-color, 20%)
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    body{
+        margin: 0 10px 0 10px;
+        font-family: "Merriweather",serif;
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 2.1rem;
+    }
+    .container{
+        margin: 0 0 0 0;
+    }
+    
+    footer{
+        margin: 0 0 0 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    body{
+        margin: 0 10px 0 10px;
+        font-family: "Merriweather",serif;
+        font-size: 2.9rem;
+    }
+    p{
+        font-size: 2.9rem;
+    }
+    .container{
+        margin: 0 10px 0 10px;
+    }
+    
+    footer{
+        margin: 0 10px 0 10px;
+    }
+}
