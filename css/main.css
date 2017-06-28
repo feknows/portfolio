@@ -42,6 +42,8 @@ header {
     margin-left: -100px;
     margin-top: -92px;
     /* centro */ }
+    header img:hover {
+      opacity: 0.8; }
 
 .soc-aloc {
   padding: 25px; }
